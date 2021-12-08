@@ -1,0 +1,84 @@
+@media (max-width: 1023px) {
+  html {
+    font-size: 55%;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+  .header{
+      padding: 2rem;
+  }
+  .header .navbar {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white-color);
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+    border-top:1px solid rgba(0, 0, 0, 0.2);
+    ;
+  }
+  .header .navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+  } 
+  .header .navbar a{
+      display: block;
+      font-size: 2rem;
+      margin: 2rem;
+  }
+  .home .home-parallax-img{
+    top: -9rem;right: 6;
+    width: 100vh;
+  }
+  .banner-row{
+    padding: 7rem 2rem;
+  }
+  .order form .flex .inputBox{
+    width: 100%;
+  }
+
+}
+@media (max-width: 740px) {
+  html {
+    font-size: 50%;
+  }
+  .products-container.cart-total {
+    text-align: center;
+  }
+  
+  .home .home-parallax-img{
+    top: -5rem;
+    right: -5rem;
+    width: 80vh;
+  }
+  .banner-row{
+    padding: 6rem 2rem;
+  }
+  .baner-row-content span{
+    font-size: 3.5rem;
+  }
+  .baner-row-content h2{
+    font-size: 4.5rem;
+  }
+  .baner-row-content p{
+    font-size: 1.7rem;
+  }
+  .order a{
+    text-align: center;
+    width: 100%;
+  }
+  .order form .flex .inputBox{
+    width: 100%;
+}
+}
+@media (min-width:1024px) and (max-width:1133px){
+  
+  .home .home-parallax-img{
+    top: -10rem;
+    right: 0rem;
+    width: 92vh;
+  }
+}
